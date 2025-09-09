@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The First Chapter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">The First Chapter</div>
+            <ul class="nav-links">
+                <li><a href="#home" onclick="smoothScroll('home')">Home</a></li>
+                <li><a href="#about" onclick="smoothScroll('about')">Services</a></li>
+                <li><a href="#about-me" onclick="smoothScroll('about-me')">About</a></li>
+                <li><a href="#process" onclick="smoothScroll('process')">Process</a></li>
+                <li><a href="#testimonials" onclick="smoothScroll('testimonials')">Testimonials</a></li>
+                <li><a href="#contact" onclick="smoothScroll('contact')">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Every voice has a <span>story worth preserving</span></h1>
+            <p>Professional oral history services to capture, preserve, and share the stories that matter most to you, your family, and your community.</p>
+            <a href="#contact" class="cta-button" onclick="smoothScroll('contact')">Start Your Story</a>
+        </div>
+    </section>
+
+    <!-- Scrolling Marquee -->
+    <div class="marquee">
+        <div class="marquee-content">
+            <span>〰️ Family Histories</span>
+            <span>〰️ Community Stories</span>
+            <span>〰️ Veteran Narratives</span>
+            <span>〰️ Business Legacies</span>
+            <span>〰️ Cultural Heritage</span>
+            <span>〰️ Personal Memoirs</span>
+            <span>〰️ Migration Stories</span>
+            <span>〰️ Professional Archives</span>
+        </div>
+    </div>
+
+    <!-- About/Services Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">What I Do</h2>
+            <p class="intro-text">
+                I help individuals, families, and organizations preserve their most important stories through professional oral history interviews and documentation.
+            </p>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Interview & Recording</h3>
+                    <p>Professional interviews conducted with care and sensitivity, using high-quality recording equipment to ensure your story is captured with clarity and authenticity.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Transcription & Editing</h3>
+                    <p>Accurate transcription of your recorded interviews, professionally edited while maintaining your unique voice and the integrity of your story.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Archival & Preservation</h3>
+                    <p>Your stories preserved in multiple formats for future generations, with options for digital archives, printed volumes, and audio collections.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about-me" class="about-me">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-me-content">
+                <div class="about-me-image">
+                    <img src="romy.jpeg" alt="Professional headshot">
+                </div>
+                <div class="about-me-text">
+                    <h3>Hello, I'm Romy David</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. With over 10 years of experience in oral history and archival work, I've had the privilege of preserving hundreds of unique stories.</p>
+                    
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. My passion for storytelling began when I recorded my grandmother's immigration story, realizing how quickly these precious narratives can be lost.</p>
+                    
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. I hold a Master's degree in Library and Information Science with a specialization in oral history from Lorem University.</p>
+                    
+                    <blockquote>
+                        "Every person has a story worth preserving. My role is to create a comfortable space where these stories can unfold naturally and authentically."
+                    </blockquote>
+                    
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. When I'm not conducting interviews, you can find me exploring local museums, researching genealogy, or enjoying time with my family.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Initial Consultation</h3>
+                    <p>We discuss your goals, timeline, and the stories you want to preserve.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Interview Sessions</h3>
+                    <p>Comfortable, conversational interviews designed to bring out your best stories.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Processing & Editing</h3>
+                    <p>Your interviews are transcribed and carefully edited to create a polished narrative.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Final Delivery</h3>
+                    <p>Receive your completed oral history in your preferred format, ready to share and preserve.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What People Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <p>"The oral history project captured my grandmother's stories beautifully. It's a treasure our family will cherish forever. The interviewer made her feel so comfortable, and stories came out that we'd never heard before."</p>
+                    <div class="testimonial-author">- Sarah M., Family History Client</div>
+                </div>
+                <div class="testimonial">
+                    <p>"Professional, sensitive, and thorough. They helped us document our organization's 50-year history through the voices of our founders and long-time members. The final product exceeded our expectations."</p>
+                    <div class="testimonial-author">- Robert Chen, Community Organization</div>
+                </div>
+                <div class="testimonial">
+                    <p>"I wanted to leave something meaningful for my children and grandchildren. This process helped me organize my thoughts and share stories I'd never taken the time to tell. It's the best gift I could give them."</p>
+                    <div class="testimonial-author">- Margaret Thompson, Personal Memoir</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Preserve Your Story</h2>
+            <p>Ready to begin? Contact me for a free consultation about your oral history project.</p>
+            
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="project-type">Project Type</label>
+                            <select id="project-type" name="project-type">
+                                <option value="">Select a project type</option>
+                                <option value="family-history">Family History</option>
+                                <option value="personal-memoir">Personal Memoir</option>
+                                <option value="veteran-story">Veteran Story</option>
+                                <option value="community-history">Community History</option>
+                                <option value="business-legacy">Business Legacy</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Tell me about your project *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Please share a bit about the stories you'd like to preserve..."></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline">Preferred Timeline</label>
+                            <input type="text" id="timeline" name="timeline" placeholder="e.g., Within 3 months, By December, Flexible">
+                        </div>
+                        
+                        <button type="submit" class="submit-button">Send Message</button>
+                        
+                        <p class="form-note">* Required fields</p>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="contact-info-container">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>Direct Contact</h3>
+                            <p>Prefer to reach out directly?</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Phone</h3>
+                            <a href="tel:+1234567890">(123) 456-7890</a>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Response Time</h3>
+                            <p>I typically respond within 24-48 hours</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Location</h3>
+                            <p>Serving clients nationwide<br>via in-person and virtual sessions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Oral History Services. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
